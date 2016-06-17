@@ -4,21 +4,15 @@ This boilerplate provides a basic workflow for the development of a React applic
 
 As this boilerplate does not impose any form of structure, feel free to adopt any framework of your choice be it [Redux](http://redux.js.org/index.html) or [Flux](https://facebook.github.io/react/blog/2014/05/06/flux.html).
 
-####Install and Run
+####Clone, Install and Run
 
-#####Install
-
-1. Download
-2. Install by executing
 ```
+git clone https://github.com/jonahdc/react-webpack.git
+cd react-webpack
 npm install
-```
-#####Run
-
-Simply run the following command to run the development server
-```
 npm run dev
 ```
+
 Then open your favorite browser and load _http://localhost:8080_
 
 ####Features
