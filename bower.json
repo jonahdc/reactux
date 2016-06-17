@@ -1,0 +1,24 @@
+{
+  "name": "react-webpack",
+  "description": "A react boilerplate using webpack",
+  "main": "index.js",
+  "authors": [
+    "fl <jonahlogy@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jonahdc/react-webpack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": "./app/libs"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
