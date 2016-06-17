@@ -1,5 +1,7 @@
 ## React-Webpack
 
+This boilerplate provides a basic structure of a React application that is written in ES6 and built/packaged using Webpack.
+
 #####Install
 
 1. Download
