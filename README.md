@@ -2,6 +2,8 @@
 
 This boilerplate provides a basic structure of a React application that is written in ES6 and built/packaged using Webpack. I condensed the different ways of bundling React apps out there into something that fits my workflow.
 
+####Install and Run
+
 #####Install
 
 1. Download
