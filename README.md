@@ -2,6 +2,8 @@
 
 This boilerplate provides a basic structure of a React application that is written in ES6 and built/packaged using Webpack. I condensed the different ways of bundling React apps out there into something that fits my workflow.
 
+As this boilerplate does not impose any form of structure - thanks to Webpack being really flexible in its way of bundling, feel free to adopt any framework of your choice be it [Redux](http://redux.js.org/index.html) or [Flux](https://facebook.github.io/react/blog/2014/05/06/flux.html).
+
 ####Install and Run
 
 #####Install
