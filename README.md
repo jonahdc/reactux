@@ -1,13 +1,13 @@
 ## React-Webpack
 
-######Install
+#####Install
 
 1. Download
 2. Install by executing
 ```
 npm install
 ```
-######Run
+#####Run
 
 Simply run the following command to run the development server
 ```
