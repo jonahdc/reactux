@@ -23,7 +23,7 @@ Then open your favorite browser and load _http://localhost:8080_
 
 #####Linting, Transpiling, Uglifying
 
-Webpack is configured to lint (using Airbnb's .jshintrc), transpile .scss files and uglifying the resulting app.min.js when in production. 
+Webpack is configured to lint (using Airbnb's _.jshintrc_), transpile _.scss_ files and uglifying the resulting _app.min.js_ when in production. 
 
 #####Hot Loading
 
