@@ -27,3 +27,6 @@ This boilerplate uses Airbnb's _.jshintrc_. Feel free to override it with your c
 
 Webpack does the hot loading for you which means it automatically refreshes the browser upon detecting changes to your codes.
 
+#####Bootstrap
+
+Configured to use Bootstrap framework.
