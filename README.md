@@ -21,9 +21,9 @@ Then open your favorite browser and load _http://localhost:8080_
 
 ####Features
 
-#####Linting
+#####Linting, Transpiling, Uglifying
 
-This boilerplate uses Airbnb's _.jshintrc_. Feel free to override it with your custom rules within jshint object of the Webpack config.
+Webpack is configured to lint (using Airbnb's .jshintrc), transpile .scss files and uglifying the resulting app.min.js when in production. 
 
 #####Hot Loading
 
