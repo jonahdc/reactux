@@ -1,8 +1,7 @@
-## React-Webpack
+## Reactux
 
-This boilerplate provides a basic workflow for the development of a React application utilizing the Webpack bundler. I condensed a few other ways of bundling React apps out there into something that fits my workflow.
+This is an extension of the React-Webpack that seeks to explore ways of adopting the Redux framework and animation libraries. 
 
-As this boilerplate does not impose any form of structure, feel free to adopt any framework of your choice be it [Redux](http://redux.js.org/index.html) or [Flux](https://facebook.github.io/react/blog/2014/05/06/flux.html).
 ####Install bower
 
 ```
