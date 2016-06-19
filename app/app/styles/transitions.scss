@@ -1,0 +1,31 @@
+/* Page transition animations */
+.page-enter {
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+  animation: slideUp 1s;
+  position: absolute;
+}
+.page-enter.page-enter-active {
+  opacity: 1;
+}
+.page-leave {
+  opacity: 1;
+  transition: background 1s ease-in;
+  position: absolute;
+}
+.page-leave.page-leave-active {
+  opacity: 0;
+  background-color: #fff;
+}
+.link-active {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+@keyframes slideUp {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 0;
+  }
+}

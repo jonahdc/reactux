@@ -4,18 +4,21 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import Bootstrap from './libs/bootstrap/bootstrap';
 
-import Header from './components/header/Header';
-import Body from './components/body/Body';
+import MainLayout from './app/MainLayout';
+import Home from './home/Home';
+import About from './about/About';
+
 
 const app = document.getElementById('app');
 
-require('./styles/base.scss');
-
+require('./app/styles/base.scss');
 
 ReactDOM.render(
-  <div>
-  <Header />
-  <Body />
-  </div>
+  <Router history={hashHistory}>
+    <Route component={MainLayout} >
+      <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+    </Route>
+  </Router>
   ,app
 );

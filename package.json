@@ -1,5 +1,5 @@
 {
-  "name": "react-webpack",
+  "name": "reactux",
   "version": "1.0.0",
   "description": "A react boilerplate using webpack",
   "main": "index.js",
@@ -31,6 +31,11 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^2.2.4"
+    "jquery": "^2.2.4",
+    "react-addons-css-transition-group": "^15.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/jonahdc/reactux"
   }
 }
